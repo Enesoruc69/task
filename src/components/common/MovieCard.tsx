@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Heart, Star, Calendar } from 'lucide-react';
+import { Heart, Star } from 'lucide-react';
 import type { Movie } from '../../types';
 import { TMDB_IMAGE_BASE_URL } from '../../utils/constants';
 import { useAppDispatch, useAppSelector } from '../../app/hooks';

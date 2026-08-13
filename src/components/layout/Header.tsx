@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Film, Heart } from 'lucide-react';
+import { Heart } from 'lucide-react';
 import { useAppSelector } from '../../app/hooks';
 
 export const Header = () => {

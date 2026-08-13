@@ -2,7 +2,7 @@ import { useGetTrendingMoviesQuery, useGetPopularMoviesQuery, useGetTopRatedMovi
 import { MovieRow } from '../components/movies/MovieRow';
 import { Loader } from '../components/common/Loader';
 import { ErrorState } from '../components/common/ErrorState';
-import { Film } from 'lucide-react';
+
 
 export const Home = () => {
   const { data: trendingData, isLoading: trendingLoading, error: trendingError } = useGetTrendingMoviesQuery();
